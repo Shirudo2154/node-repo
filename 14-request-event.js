@@ -12,4 +12,6 @@ server.on('request', (req, res) => {
   res.end('Welcome')
 })
 
+// the http module uses server function, which extends event emitter. Essentially this function is built on event emitter class.
+
 server.listen(5000)
